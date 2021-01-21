@@ -31,6 +31,7 @@ dependencies {
 
     // framework
     implementation("zfwk:zfwk:0.1.5")
+    implementation("zfwk:zutils:0.1.2")
 
     // test
     testImplementation("org.springframework.boot:spring-boot-starter-test")

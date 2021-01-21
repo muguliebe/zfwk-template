@@ -23,6 +23,5 @@ object DateUtils {
     // TimeStamp(yyyy.MM.dd HH:mm:ss) 리턴
     fun currentTimeStamp(): OffsetDateTime = OffsetDateTime.now(zoneId)
     fun currentTimestampString(): String = currentDateTimeFormat("yyyy-MM-dd HH:mm:ss")
-
 }
 

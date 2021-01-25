@@ -7,8 +7,8 @@ plugins {
     `maven-publish`
 }
 
-group = "zfwk"
-version = "0.1.2"
+group = "com.egstep"
+version = "0.1.1"
 java.sourceCompatibility = JavaVersion.VERSION_1_8
 
 repositories {
@@ -104,7 +104,7 @@ bintray {
 
     pkg.apply {
         println("packaging..")
-        repo = "zfwk"
+        repo = artifactGroup
         name = artifactName
         userOrg = "zany"
         githubRepo = githubRepo

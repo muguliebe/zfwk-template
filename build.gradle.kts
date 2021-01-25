@@ -7,14 +7,14 @@ plugins {
     kotlin("plugin.spring") version "1.4.21"
 }
 
-group = "com.egstep.proto"
+group = "com.egstep"
 version = "0.0.1"
 java.sourceCompatibility = JavaVersion.VERSION_1_8
 
 repositories {
     mavenCentral()
     maven {
-        setUrl("https://dl.bintray.com/zany/zfwk")
+        setUrl("https://dl.bintray.com/zany/com.egstep")
     }
 }
 
@@ -30,8 +30,8 @@ dependencies {
     developmentOnly("org.springframework.boot:spring-boot-devtools")
 
     // framework
-    implementation("zfwk:zfwk:0.1.5")
-    implementation("zfwk:zutils:0.1.2")
+    implementation("com.egstep:zfwk-core:0.1.1")
+    implementation("com.egstep:zutils:0.1.1")
 
     // test
     testImplementation("org.springframework.boot:spring-boot-starter-test")

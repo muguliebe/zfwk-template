@@ -18,6 +18,9 @@ repositories {
     mavenLocal()
     mavenCentral()
     jcenter()
+    maven {
+        setUrl("https://dl.bintray.com/zany/com.egstep")
+    }
 }
 
 dependencies {

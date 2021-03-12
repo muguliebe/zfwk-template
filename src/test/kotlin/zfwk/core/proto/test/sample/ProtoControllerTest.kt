@@ -1,9 +1,9 @@
-package zfwk.proto.test.sample
+package zfwk.core.proto.test.sample
 
 import org.assertj.core.api.Assertions.assertThat
 import org.junit.jupiter.api.Test
 import zfwk.core.proto.model.ProtoModel
-import zfwk.test.base.BaseSpringTest
+import zfwk.core.test.base.BaseSpringTest
 
 class ProtoControllerTest : BaseSpringTest() {
 
@@ -11,7 +11,7 @@ class ProtoControllerTest : BaseSpringTest() {
     fun test() {
         log.info("test start")
 
-        val result = rest.getForObject("/zfwk/proto", ProtoModel::class.java)
+        val result = rest.getForObject("/zfwk/core/proto", ProtoModel::class.java)
         println("result = $result")
 
         assertThat(result).isNotNull

@@ -7,7 +7,7 @@ import zfwk.core.component.Commons
 
 open class BaseController : BaseObject() {
 
-    final val log = LoggerFactory.getLogger(this::class.java) as Logger
+    protected val log = LoggerFactory.getLogger(this::class.java) as Logger
 
     @Autowired lateinit var commons: Commons
 

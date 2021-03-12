@@ -9,7 +9,6 @@ import zfwk.core.base.BaseController
 import zfwk.core.proto.model.ProtoModel
 import zfwk.core.proto.service.ProtoService
 
-@Profile("proto")
 @RestController
 @RequestMapping("/zfwk/proto")
 class ProtoController : BaseController() {

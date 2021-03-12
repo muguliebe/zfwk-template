@@ -6,7 +6,6 @@ import zfwk.core.base.BaseService
 import zfwk.core.ext.loggerFor
 import zfwk.core.proto.model.ProtoModel
 
-@Profile("proto")
 @Service
 class ProtoService :BaseService() {
 

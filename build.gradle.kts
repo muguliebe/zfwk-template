@@ -38,7 +38,7 @@ dependencies {
     implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
 
     // zfwk
-    implementation("com.egstep:zutils:0.1.1")
+    implementation("com.egstep:zutils:0.1.4")
 
     // test
     testImplementation("org.springframework.boot:spring-boot-starter-test")

@@ -8,7 +8,7 @@ plugins {
 }
 
 group = "com.egstep"
-version = "0.1.1"
+version = "0.1.4"
 java.sourceCompatibility = JavaVersion.VERSION_1_8
 
 repositories {
@@ -20,6 +20,8 @@ repositories {
 dependencies {
     implementation(kotlin("stdlib"))
     implementation("ch.qos.logback:logback-classic:1.2.3")
+    implementation("org.slf4j:slf4j-api:1.7.30")
+
 }
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

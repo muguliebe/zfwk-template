@@ -24,3 +24,6 @@ out/
 !**/src/main/**/out/
 !**/src/test/**/out/
 .vscode/
+
+### CUSTOM
+deploy/

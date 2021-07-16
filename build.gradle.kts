@@ -7,7 +7,7 @@ plugins {
 }
 
 group = "zfwk"
-version = "0.1.2"
+version = "0.1.5"
 java.sourceCompatibility = JavaVersion.VERSION_1_8
 
 repositories {

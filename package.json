@@ -1,0 +1,22 @@
+{
+  "name": "zfwk-template",
+  "version": "1.0.0",
+  "description": "\"# zfwk-template\"",
+  "main": "index.js",
+  "scripts": {
+    "sub-remote-zfwk": "git remote add zfwk git@github.com:muguliebe/zfwk-core.git",
+    "sub-add-zfwk": "git subtree add --prefix=src/main/kotlin/zfwk zfwk main",
+    "sub-push": "git subtree push --prefix=src/main/kotlin/zfwk zfwk main",
+    "sub-pull": "git subtree pull --prefix=src/main/kotlin/zfwk zfwk main"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muguliebe/zfwk-template.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/muguliebe/zfwk-template/issues"
+  },
+  "homepage": "https://github.com/muguliebe/zfwk-template#readme"
+}

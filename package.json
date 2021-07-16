@@ -1,0 +1,23 @@
+{
+  "name": "zfwk-core",
+  "version": "1.0.0",
+  "description": "framework core by spring boot",
+  "main": "index.js",
+  "scripts": {
+    "sub-remote-zutils": "git remote add zutils git@github.com:muguliebe/zutils-kt.git",
+    "sub-add-zutils": "git subtree add --prefix=src/main/kotlin/zfwk/zutils zutils main",
+    "sub-push": "git subtree push --prefix=src/main/kotlin/zfwk/zutils zutils main",
+    "sub-pull": "git subtree pull --prefix=src/main/kotlin/zfwk/zutils zutils main",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muguliebe/zfwk-core.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/muguliebe/zfwk-core/issues"
+  },
+  "homepage": "https://github.com/muguliebe/zfwk-core#readme"
+}
